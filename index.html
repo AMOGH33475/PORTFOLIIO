@@ -4,60 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Hello, I'm [Your Name] 👋</h1>
-        <p>I am passionate about technology and problem-solving. Here's a glimpse of my work:</p>
+        <div class="hero">
+            <h1>Hello, I'm <span>AMOGH</span> </h1>
+            <p>Here’s a glimpse of my work.</p>
+        </div>
     </header>
+    <main>
+        <section id="skills" class="skills">
+            <h2>🚀 Skills</h2>
+            <ul>
+                <li>C++, Python, JavaScript</li>
+                <li>Data Structures and Algorithms</li>
+            </ul>
+        </section>
 
-    <section>
-        <h2>🛠️ Projects</h2>
-        <ul>
-            <li><strong>Project 1</strong>: A short description of your project1.</li>
-            <li><strong>Project 2</strong>: A short description of another project2.</li>
-        </ul>
+        <section id="portfolio" class="portfolio-info">
+            <h2>Portfolio Topic</h2>
+            <dl>
+                <dt>Course Name</dt>
+                <dd>Algorithmic Problem Solving</dd>
+                <dt>Course Code</dt>
+                <dd>24ECSC205</dd>
+                <dt>Name</dt>
+                <dd>AMOGH ANNIGERI</dd>
+                <dt>SRN</dt>
+                <dd>01FE23BCS210</dd>
+                <dt>Course Instructor</dt>
+                <dd>MALLIKARJUN AKKI</dd>
+                <dt>University</dt>
+                <dd>BVB</dd>
+                <dt>Portfolio Topic/Domain</dt>
+                <dd>Google</dd>
+            </dl>
+        </section>
 
-        <h2>🚀 Skills</h2>
-        <ul>
-            <li>C++, Python, JavaScript</li>
-            <li>Data Structures and Algorithms</li>
-            <li>Web Development (React.js, Node.js)</li>
-        </ul>
+        <section id="reflections" class="project-reflections">
+            <h2>Project Reflections</h2>
+            <h3>1. How do you determine the most efficient approach when solving a complex problem?</h3>
+            <p>Understand the Problem: Look at the problem’s context—what’s its purpose and who will use it?</p>
+            <p>Simplify the Task: Break the problem into smaller, manageable pieces.</p>
+            <p>Choose the Right Tools: Pick algorithms that balance speed and simplicity, depending on the problem.</p>
+            <p>Prototype First: Build a basic version quickly to test and improve.</p>
 
-        <h2>🌐 Find Me Online</h2>
-        <ul>
-            <li><a href="https://github.com/your-github-username" target="_blank">GitHub</a></li>
-            <li><a href="https://linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn</a></li>
-        </ul>
+            <h3>2. What criteria do you use to evaluate the effectiveness of a solution?</h3>
+            <p>Usability: Is the solution easy for users to interact with?</p>
+            <p>Resilience: Does the solution handle unexpected errors without breaking?</p>
+            <p>Adaptability: Can it change or grow with new requirements?</p>
+            <p>Cost: Does the solution justify the time, money, or resources spent?</p>
 
-        <h2>Portfolio Topic</h2>
-        <dl>
-            <dt>Course Name</dt>
-            <dd>Algorithmic Problem Solving</dd>
+            <h3>3. Reflect on a situation where you need to balance multiple conflicting constraints in a design. What approach did you take?</h3>
+            <p>Example: Search Feature for an E-Commerce Site: Conflicting Constraints: Speed vs. accuracy of search results.</p>
+            <p>Approach: Used faster search algorithms for immediate results, but improved accuracy by updating results in the background using machine learning.</p>
+        </section>
 
-            <dt>Course Code</dt>
-            <dd>Course Code Placeholder</dd>
+        <!-- GitHub Link Section -->
+        <section id="github" class="github-link">
+            <h2>🌐 Find Me on GitHub</h2>
+            <p>Check out my repositories and projects on GitHub:</p>
+            <a href="https://github.com/AMOGH33475" target="_blank" class="github-button">Visit My GitHub</a>
+        </section>
+    </main>
 
-            <dt>Name</dt>
-            <dd>Your Name</dd>
-
-            <dt>SRN</dt>
-            <dd>Your SRN</dd>
-
-            <dt>Course Instructor</dt>
-            <dd>Instructor Name Placeholder</dd>
-
-            <dt>University</dt>
-            <dd>Your University Name</dd>
-
-            <dt>Portfolio Topic/Domain</dt>
-            <dd>Google</dd>
-        </dl>
-
-        <blockquote>“The only way to do great work is to love what you do.” – Steve Jobs</blockquote>
-    </section>
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 AMOGH ANNIGERI. All rights reserved.</p>
+    </footer>
 </body>
 </html>
